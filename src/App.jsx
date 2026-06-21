@@ -107,6 +107,9 @@ function App() {
             Strong understanding of Arrays, Strings, Linked Lists, Trees,
             Graphs, Dynamic Programming, Sliding Window and Backtracking.
           </p>
+          <a href="https://leetcode.com/u/NeerajSuthar/" target="_blank">
+              View LeetCode Profile
+          </a>
         </div>
       </section>
 
