@@ -20,7 +20,7 @@ function App() {
         <h1>Neeraj Suthar</h1>
         <h2>Full Stack Developer</h2>
         <p>React · Node.js · Express · PostgreSQL · JavaScript</p>
-        <p>200+ LeetCode Problems Solved</p>
+        <p>290+ LeetCode Problems Solved</p>
 
         <div className="hero-buttons">
           <a href="#projects">View Projects</a>
@@ -40,7 +40,7 @@ function App() {
           </p>
 
           <p>
-            I have solved 200+ LeetCode problems and built real-world
+            I have solved 290+ LeetCode problems and built real-world
             projects using React, Node.js, Express, PostgreSQL, MongoDB,
             WebRTC and AI technologies while focusing on writing clean,
             maintainable and production-quality code.
@@ -75,105 +75,175 @@ function App() {
       <section id="projects" className="section">
         <h2 data-label="What I've Built">Projects</h2>
 
-        <div className="projects">
-          {/* Video Conferencing Project */}
+<div className="projects">
 
-          <div className="project-card">
-            <h3>
-              <b>Video Conferencing Website</b>
-            </h3>
+  {/* Legal GPT */}
+  <div className="project-card">
+    <h3>
+      <b>Legal GPT — AI Legal Assistant</b>
+    </h3>
 
-            <p>
-              Real-time video conferencing application built using React,
-              WebRTC and Socket.io. Enables peer-to-peer communication,
-              live video streaming and instant messaging.
-            </p>
+    <p>
+      An AI-powered legal assistant that uses Retrieval-Augmented Generation
+      (RAG) to provide context-aware answers from legal documents. Users can
+      upload documents, ask natural-language questions and receive
+      document-grounded responses with relevant context.
+    </p>
 
-            <div className="tech">
-              <span>React</span>
-              <span>WebRTC</span>
-              <span>Socket.io</span>
-              <span>Node.js</span>
-            </div>
+    <div className="tech">
+      <span>React</span>
+      <span>Node.js</span>
+      <span>Express.js</span>
+      <span>Python</span>
+      <span>RAG</span>
+      <span>ChromaDB</span>
+      <span>Gemini</span>
+    </div>
 
-            <div className="project-links">
-              <a
-                href="https://mera-video-call-1frontend2.onrender.com"
-                target="_blank"
-                rel="noreferrer"
-              >
-                Live Demo
-              </a>
+    <ul className="project-features">
+      <li>🤖 AI-powered legal question answering</li>
+      <li>📄 Document upload and intelligent processing</li>
+      <li>🔎 Retrieval-Augmented Generation (RAG)</li>
+      <li>🧠 Semantic search using vector embeddings</li>
+      <li>📚 Context-aware responses from uploaded documents</li>
+      <li>💬 Natural-language conversational interface</li>
+      <li>⚡ Fast and responsive React interface</li>
+    </ul>
 
-              <a
-                href="https://github.com/neerajsutha973r/Mera-Video-Call"
-                target="_blank"
-                rel="noreferrer"
-              >
-                GitHub
-              </a>
-            </div>
-          </div>
+    <div className="project-links">
+      <a
+        href="https://legal-gpt.manishsuthar.dev"
+        target="_blank"
+        rel="noreferrer"
+      >
+        Live Demo
+      </a>
+      <a
+        href="https://github.com/neerajsutha973r/Rag.git"
+        target="_blank"
+        rel="noreferrer"
+      >
+        GitHub
+      </a>
 
-          {/* AI Interview Platform */}
+    </div>
+  </div>
 
-          <div className="project-card">
-            <h3>
-              <b>AI Interview Platform</b>
-            </h3>
 
-            <p>
-              A full-stack AI-powered mock interview platform that helps
-              users prepare for technical interviews through voice-based
-              interaction, AI-generated questions, instant feedback and
-              performance tracking.
-            </p>
+  {/* AI Interview Platform */}
+  <div className="project-card">
+    <h3>
+      <b>AI Interview Platform</b>
+    </h3>
 
-            <div className="tech">
-              <span>React</span>
-              <span>Node.js</span>
-              <span>Express.js</span>
-              <span>PostgreSQL</span>
-              <span>Groq AI</span>
-              <span>Speech Recognition</span>
-            </div>
+    <p>
+      A full-stack AI-powered mock interview platform designed to simulate
+      real interview experiences through voice interaction, dynamically
+      generated questions, AI evaluation and personalized performance
+      analysis.
+    </p>
 
-            <ul className="project-features">
-              <li>🎤 Voice-based interview using Speech Recognition</li>
-              <li>🤖 AI-generated interview questions</li>
-              <li>📝 AI evaluation and personalized feedback</li>
-              <li>📊 Interview score and performance analysis</li>
-              <li>🔐 User Authentication (JWT)</li>
-              <li>📜 Interview history and answer tracking</li>
-              <li>⚡ Responsive and modern UI</li>
-            </ul>
+    <div className="tech">
+      <span>React</span>
+      <span>Node.js</span>
+      <span>Express.js</span>
+      <span>PostgreSQL</span>
+      <span>Gemini</span>
+      <span>Groq AI</span>
+      <span>pgvector</span>
+      <span>Speech Recognition</span>
+    </div>
 
-            <div className="project-links">
-              <a
-                href="https://ai-interview-platform-mocha-six.vercel.app/"
-                target="_blank"
-                rel="noreferrer"
-              >
-                Live Demo
-              </a>
+    <ul className="project-features">
+      <li>🎤 Voice-based conversational interviews</li>
+      <li>🤖 Dynamically generated technical interview questions</li>
+      <li>🔎 Semantic question similarity detection</li>
+      <li>📝 AI-powered answer evaluation and feedback</li>
+      <li>📊 Interview scoring and performance analysis</li>
+      <li>📜 Interview history and answer tracking</li>
+      <li>🔐 JWT-based authentication</li>
+      <li>📱 Responsive and modern user interface</li>
+    </ul>
 
-              <a
-                href="https://github.com/neerajsutha973r/Groq_GPT"
-                target="_blank"
-                rel="noreferrer"
-              >
-                GitHub
-              </a>
-            </div>
-          </div>
-        </div>
+    <div className="project-links">
+      <a
+        href="https://ai-interview-platform-mocha-six.vercel.app/"
+        target="_blank"
+        rel="noreferrer"
+      >
+        Live Demo
+      </a>
+
+      <a
+        href="https://github.com/neerajsutha973r/AiInterviewPlatform.git"
+        target="_blank"
+        rel="noreferrer"
+      >
+        GitHub
+      </a>
+    </div>
+  </div>
+
+
+  {/* Video Conferencing Project */}
+  <div className="project-card">
+    <h3>
+      <b>Video Conferencing Website</b>
+    </h3>
+
+    <p>
+      A real-time video conferencing application that enables users to
+      communicate through peer-to-peer video, audio and instant messaging.
+      Built with WebRTC and Socket.io for low-latency real-time
+      communication.
+    </p>
+
+    <div className="tech">
+      <span>React</span>
+      <span>WebRTC</span>
+      <span>Socket.io</span>
+      <span>Node.js</span>
+      <span>Express.js</span>
+    </div>
+
+    <ul className="project-features">
+      <li>📹 Real-time peer-to-peer video communication</li>
+      <li>🎙️ Live audio and video streaming</li>
+      <li>💬 Real-time messaging using Socket.io</li>
+      <li>🔗 WebRTC-based peer connections</li>
+      <li>⚡ Low-latency real-time communication</li>
+      <li>📱 Responsive interface for different screen sizes</li>
+    </ul>
+
+    <div className="project-links">
+      <a
+        href="https://mera-video-call-1frontend2.onrender.com"
+        target="_blank"
+        rel="noreferrer"
+      >
+        Live Demo
+      </a>
+
+      <a
+        href="https://github.com/neerajsutha973r/Mera-Video-Call"
+        target="_blank"
+        rel="noreferrer"
+      >
+        GitHub
+      </a>
+    </div>
+  </div>
+
+</div>
+
+
       </section>
 
       <section className="section">
         <h2 data-label="Milestones">Achievements</h2>
 
         <div className="achievement">
-          <h3>200+ LeetCode Problems Solved</h3>
+          <h3>290+ LeetCode Problems Solved</h3>
 
           <p>
             Strong understanding of Arrays, Strings, Linked Lists, Trees,
